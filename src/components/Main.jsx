@@ -45,7 +45,7 @@ function Main({ startTransition, ispending, count }) {
               <div className="h-4 bg-gray-300 rounded w-3/4 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-gray-300 via-gray-200 to-gray-300 animate-shimmer" />
               </div>
-            </div> : <div className='flex justify-between items-center w-[250px] mx-2 '><h1 className='text-[14px] font-bold'>{item.author}</h1> <p className='text-shadow-violet-200'>{`#${i}`}</p></div>}
+            </div> : <div className='flex justify-between items-center md:w-[250px] mx-2 '><h1 className='text-[14px] font-bold'>{item.author}</h1> <p className='text-shadow-violet-200'>{`#${i}`}</p></div>}
 
           </div>
         ))
