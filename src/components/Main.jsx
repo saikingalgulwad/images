@@ -32,9 +32,9 @@ function Main({ startTransition, ispending, count }) {
       {
         data.map((item, i) => (
           <div key={item.id} className='p-3'>
-            {ispending ? <div className={`w-[300px] rounded-lg overflow-hidden bg-white shadow`}>
+            {ispending ? <div className={`md:w-[300px] w-[150px] rounded-lg overflow-hidden bg-white shadow`}>
               {/* Image placeholder */}
-              <div className={`h-[300px] bg-gray-300 relative overflow-hidden`}>
+              <div className={`md:h-[300px] h-[150px] bg-gray-300 relative overflow-hidden`}>
                 <div className="absolute inset-0 bg-gradient-to-r from-gray-300 via-gray-200 to-gray-300 animate-shimmer" />
               </div>
 
